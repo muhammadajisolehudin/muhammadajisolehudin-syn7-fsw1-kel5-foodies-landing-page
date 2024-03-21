@@ -2,6 +2,9 @@
   "name": "foodies",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/assets/styles/input.css -o ./src/assets/styles/output.css --watch"
+  },
   "author": "agungrizkyana <agung.rizkyana@gmail.com>",
   "license": "MIT",
   "dependencies": {
