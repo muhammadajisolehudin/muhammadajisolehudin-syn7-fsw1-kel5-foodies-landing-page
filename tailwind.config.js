@@ -22,16 +22,6 @@ module.exports = {
           letterSpacing: '0.2px',
           fontWeight: '500',
         }],
-        'button': ['16px', {
-          lineHeight: '28px',
-          letterSpacing: '0.2px',
-          fontWeight: '700',
-        }],
-        'subtitle': ['12px', {
-          lineHeight: '18px',
-          letterSpacing: '0.1px',
-          fontWeight: '700',
-        }],
       }
     },
   },

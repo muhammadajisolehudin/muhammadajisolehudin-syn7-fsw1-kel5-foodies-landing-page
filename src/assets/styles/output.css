@@ -613,8 +613,8 @@ video {
   justify-content: space-between;
 }
 
-.gap-1{
-  gap: 0.25rem;
+.gap-2{
+  gap: 0.5rem;
 }
 
 .gap-3{
@@ -685,14 +685,19 @@ video {
   padding: 1.5rem;
 }
 
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-16{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .py-28{
@@ -705,19 +710,14 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-32{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .px-12{
   padding-left: 3rem;
   padding-right: 3rem;
-}
-
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-16{
-  padding-left: 4rem;
-  padding-right: 4rem;
 }
 
 .pb-8{
@@ -732,6 +732,10 @@ video {
   padding-top: 2rem;
 }
 
+.pt-10{
+  padding-top: 2.5rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -744,11 +748,8 @@ video {
   font-family: Roboto, sans-serif;
 }
 
-.text-button{
-  font-size: 16px;
-  line-height: 28px;
-  letter-spacing: 0.2px;
-  font-weight: 700;
+.text-\[12px\]{
+  font-size: 12px;
 }
 
 .text-h2{
@@ -763,6 +764,14 @@ video {
   line-height: 38px;
   letter-spacing: 0.2px;
   font-weight: 500;
+}
+
+.text-\[16px\]{
+  font-size: 16px;
+}
+
+.font-\[700\]{
+  font-weight: 700;
 }
 
 .text-\[\#5C5C5C\]{
