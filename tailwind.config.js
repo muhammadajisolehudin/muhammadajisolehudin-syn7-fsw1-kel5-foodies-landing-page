@@ -12,17 +12,17 @@ module.exports = {
         'roboto': ['Roboto', 'sans-serif'],
       },
       fontSize: {
-        'h2': ['50px', {
+        'h2': ['40px', {
           lineHeight: '57px',
           letterSpacing: '0.2px',
-          fontWeight: 'bold',
+          fontWeight: '700',
         }],
         'h4': ['24px', {
           lineHeight: '38px',
           letterSpacing: '0.2px',
           fontWeight: '500',
         }],
-      }
+      },
     },
   },
   plugins: [],
