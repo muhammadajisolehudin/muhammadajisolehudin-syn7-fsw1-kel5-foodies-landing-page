@@ -5,25 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/styles/output.css" />
+    <style>
+
+      @media (min-width: 768px) {
+        .bg-hero {
+          background-image: url('assets/images/hero-bg.png');
+          background-size: cover;
+          background-position: center;
+          height: 81vh;
+        }
+      }
+     
+    </style>
   </head>
   <body class="bg-gray-50">
-    <div class="min-h-[100vh] bg-white mx-auto max-w-lg">
+    <div class="min-h-[100vh] bg-white mx-auto">
       <!-- navbar -->
       <nav class="bg-white">
-        <div class="flex justify-between items-center p-6">
-          <div class="w-[104px]">
+        <div class="flex justify-between items-center px-10 py-4">
+          <div class="w-[104px] md:w-[200px] ms-8">
             <img
               src="./assets/images/logo.png"
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover" 
             />
           </div>
-          <div>
-            <button type="button">
+          <div class="">
+            <!-- desktop -->
+            <ul class="hidden md:flex gap-24 items-center font-medium">
+                <li>
+                  <a href="#our-section">Home</a>
+                </li>
+                <li>
+                  <a href="#whyUs-section">Product</a>
+                </li>
+                <li>
+                  <a href="#testimonial-section">Faq</a>
+                </li>
+                <li>
+                  <a href="#faq-section">Contact</a>
+                </li>
+                
+            </ul>
+
+            <!-- mobile -->
+            <button class="md:hidden" type="button">
               <img
                 src="./assets/images/menu.svg"
                 class="w-[20px] h-[20px] object-cover"
               />
             </button>
+        
           </div>
         </div>
       </nav>
@@ -32,19 +63,22 @@
       <!-- hero -->
       <section
         id="hero"
-        class="bg-gray-100 min-h-[20rem] h-[150vh] flex flex-col relative items-center text-center gap-2" 
+        class="bg-gray-100 min-h-[20rem] h-[150vh] " 
       >
-        <h1 class="text-[16px] font-bold text-[#737373] pt-12">Food App</h1>
-        <h1 class="text-[36px] font-bold">Why stay hungry <br> 
-            when you can order <br>
-            form Bella Onojie</h1>
-        <p class="text-[24px] text-[#737373]">Download the bella onoje’s <br>
-            food app now on </p>
-
-            <button class="h-[60px] w-[200px] rounded-[30px] text-[24px] font-bold text-white bg-[#FA4A0C] mt-8">Playstore</button>
-            <button class="h-[60px] w-[200px] rounded-[30px] text-[24px] font-bold text-[#FA4A0C] border border-[#FA4A0C] mt-2">App Store</button>
-
-        <img class="absolute top-[40%] " src="assets/images/2hp.png" alt="">
+        <div class="bg-hero flex flex-col relative items-center text-center gap-2 ">
+          <h1 class="text-[16px] md:text-[2vw] md:text-white font-bold text-[#737373] pt-12">Food App</h1>
+          <h1 class="text-[36px] md:text-[4vw] font-bold md:text-white max-w-[900px]">Why stay hungry <br class="md:hidden"> when <br class="hidden md:block">
+              you can order <br class="md:hidden"> form Bella Onojie</h1>
+          <p class="text-[24px] text-[#737373] md:text-white">Download the bella onoje’s <br class="md:hidden">
+              food app now on </p>
+          <div class="md:flex md:flex-row mt-8 md:gap-10">
+            <button class="h-[60px] w-[200px] rounded-[30px] text-[24px] font-bold text-white bg-[#FA4A0C]">Playstore</button>
+            <button class="h-[60px] w-[200px] rounded-[30px] text-[24px] font-bold text-[#FA4A0C] md:text-white border border-[#FA4A0C] md:border-white mt-2 md:mt-0">App Store</button>
+          </div>
+              
+          <img class="absolute top-[80%] md:top-[50%] " src="assets/images/2hp.png" alt="">
+        </div>
+        
       </section>
       <!-- /hero -->
 
