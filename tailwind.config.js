@@ -15,7 +15,7 @@ module.exports = {
         'h2': ['50px', {
           lineHeight: '57px',
           letterSpacing: '0.2px',
-          fontWeight: 'bold',
+          fontWeight: '700',
         }],
         'h4': ['24px', {
           lineHeight: '38px',
