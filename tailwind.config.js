@@ -8,6 +8,9 @@ module.exports = {
         dark: '#252B42',
       },
     },
+    fontFamily: {
+      'display': ['Montserrat'],
+    }
   },
   plugins: [],
 };
