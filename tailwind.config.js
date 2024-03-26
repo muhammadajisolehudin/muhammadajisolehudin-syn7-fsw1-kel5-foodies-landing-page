@@ -24,6 +24,9 @@ module.exports = {
         }],
       },
     },
+    fontFamily: {
+      'display': ['Montserrat'],
+    }
   },
   plugins: [],
 };
