@@ -83,38 +83,51 @@
       <!-- /hero -->
 
       <section
-        class="md:container md:mx-auto md:px-4 bg-white min-h-[20rem] flex flex-col md:flex-row justify-center md:justify-between items-center"
+        id="account"
+        class="min-h-[20rem] flex flex-col-reverse lg:flex-row lg:justify-center items-center w-full mx-auto border border-black"
       >
-        <div>
-          <h3 class="font-display text-2xl text-orange-400 text-center font-bold py-2 px-4">Create an account</h3>
-          <h2 class="font-display text-4xl text-[#252B42] text-center font-bold py-2 px-12">Create/login to an existing account to get started</h2>
-          <p class ="font-display text-xl text-gray-400 text-center py-2 px-20">An account is created with your email and a desired password</p>
+        
+        <div class="w-full md:w-[50%] border border-black">
+          <img src="./assets/images/Account.png">
         </div>
-        <img src="./assets/images/Account.png">
+        
+        <div 
+          class="w-full flex-col md:flex space-y-7 text-center lg:text-start lg:p-0 md:w-[50%] border border-black"
+        >
+          <h3 class="text-2xl text-orange-400 font-bold">Create an account</h3>
+          <h2 class="text-4xl text-[#252B42] font-bold w-full">Create/login to an existing <br class="hidden md:block"> 
+            account to get started</h2>
+          <p class ="text-xl text-gray-400 mx-auto lg:mx-0">
+            An account is created with your <br class="hidden md:block">
+            email and a desired password</p>
+        </div>
+        
       </section>
 
       <section
         id="explore"
-        class="min-h-[20rem] flex flex-col lg:flex-row lg:justify-center items-center w-full lg:w-[70%] mx-auto"
+        class="min-h-[20rem] flex flex-col lg:flex-row lg:justify-center items-center w-full mx-auto border border-black"
       >
         <div
-          class="w-full lg:w-7/12 flex flex-col space-y-7 text-center lg:text-start p-4 lg:p-0"
+          class="w-full flex flex-col space-y-7 text-center lg:text-start md:w-[50%] md:ps-32 border border-black"
         >
           <h2 class="text-2xl font-bold text-[#FA4A0C]">Explore varieties</h2>
-          <h1 class="font-bold text-[40px] leading-[50px] w-full lg:w-[80%]">
-            Shop for your favorites meal as e dey hot.
+          <h1 class="font-bold text-[40px] leading-[50px] w-full">
+            Shop for your favorites <br class="hidden md:block">
+            meal as e dey hot.
           </h1>
           <p
-            class="text-2xl text-[#737373] font-medium lg:w-[80%] w-[70%] mx-auto lg:mx-0"
+            class="text-2xl text-[#737373] font-medium mx-auto lg:mx-0"
           >
-            Shop for your favorite meals or drinks and enjoy while doing it.
+            Shop for your favorite meals or drinks <br class="hidden md:block">
+             and enjoy while doing it.
           </p>
         </div>
-        <div class="w-full lg:w-5/12 flex justify-center lg:static">
+        <div class="w-full md:w-[50%] flex justify-center border border-black"> 
           <img
             src="./assets/images/explore.png"
             alt=""
-            class="w-full lg:h-[525px] lg:w-[269px] lg:static -mt-20 lg:mt-0"
+            class=""
           />
         </div>
       </section>
